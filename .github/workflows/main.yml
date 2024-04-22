@@ -42,7 +42,7 @@ jobs:
         run: |
           rm -rf /var/www/nextjs/node_modules
           mkdir -p  /var/www/nextjs/node_modules
-          cp -a build /var/www/nextjs/node_modules
+          cp -a node_modules /var/www/nextjs/node_modules
 
   # Deployment job
   deploy:
