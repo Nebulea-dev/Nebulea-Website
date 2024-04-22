@@ -4,7 +4,7 @@ name: Deploy website to oracle cloud
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: [$default-branch]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -33,7 +33,7 @@ jobs:
       - name: Build with Next.js
         run: npm run build
       - name: Copy to nginx folder
-        run: cp -a . /var/www/nextjs
+        run: cp -a .next /var/www/nextjs
 
   # Deployment job
   deploy:
@@ -41,4 +41,4 @@ jobs:
     needs: build
     steps:
       - name: Deploy to web
-        run: npm run start
+        run: npx next start
