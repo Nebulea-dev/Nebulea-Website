@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build with Next.js
-        run: npm run build && cd build && ls
+        run: ls -a && npm run build && ls -a && cd build && ls -a
       - name: Copy output to Nginx folder
         run: ls && cp -a build /var/www/nextjs
 
