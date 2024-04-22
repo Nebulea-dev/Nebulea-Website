@@ -33,7 +33,7 @@ jobs:
       - name: Build with Next.js
         run: npm run build
       - name: Copy output to Nginx folder
-        run: cp -a build /var/www/nextjs
+        run: ls && cd .. && ls && cp -a build /var/www/nextjs
 
   # Deployment job
   deploy:
