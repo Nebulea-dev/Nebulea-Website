@@ -35,9 +35,15 @@ jobs:
       - name: Build with Next.js
         run: npm run build
       - name: Copy output to Nginx folder
-        run: mkdir -p  /var/www/nextjs/.nextjs && cp -a build /var/www/nextjs/.nextjs
+        run: |
+          rm -rf /var/www/nextjs/.nextjs
+          mkdir -p  /var/www/nextjs/.nextjs
+          cp -a build /var/www/nextjs/.nextjs
       - name: Copy modules to Nginx folder
-        run: mkdir -p  /var/www/nextjs/node_modules && cp -a node_modules /var/www/nextjs/node_modules
+        run: |
+          rm -rf /var/www/nextjs/node_modules
+          mkdir -p  /var/www/nextjs/node_modules
+          cp -a build /var/www/nextjs/node_modules
 
   # Deployment job
   deploy:
