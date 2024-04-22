@@ -28,14 +28,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Show current directory
-        run: pwd
       - name: Install dependencies
         run: npm install
       - name: Build with Next.js
         run: npm run build
       - name: Copy output to Nginx folder
         run: |
+          ls build
           rm -rf /var/www/nextjs/.nextjs
           mkdir -p  /var/www/nextjs/.nextjs
           cp -a build /var/www/nextjs/.nextjs
