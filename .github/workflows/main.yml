@@ -33,14 +33,14 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build with Next.js
-        run: ls -a && npm run build && ls -a && cd build && ls -a
+        run: npm run build
       - name: Copy output to Nginx folder
-        run: ls && cp -a build /var/www/nextjs
+        run: mkdir -p  /var/www/nextjs/.nextjs && cp -a build /var/www/nextjs/.nextjs
 
   # Deployment job
   deploy:
     runs-on: self-hosted
     needs: build
     steps:
-      - name: Deploy to web
-        run: npx next start
+      - name: Start webserver
+        run: sudo systemctl stop webserver && sudo systemctl start webserver
