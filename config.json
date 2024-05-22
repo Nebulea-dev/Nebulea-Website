@@ -1,7 +1,7 @@
 {
 	"readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
 	"title": "Nebulea",
-	"name": "Nebulea",
+	"name": "Maxence",
 	"ascii": "Nebulea",
 	"social": {
 		"github": "clubmax27",
@@ -12,10 +12,8 @@
 	"ps1_username": "Nebulea",
 	"repo": "https://github.com/clubmax27/Nebulea-Website",
 	"resume_url": "https://ensimag.grenoble-inp.fr/",
-	"donate_urls": {
-		"paypal": "https://paypal.me/cveinnt",
-		"patreon": "https://patreon.com/cveinnt"
-	},
+	"school": "https://ensimag.grenoble-inp.fr/",
+	"job": "https://www.allegrodvt.com/",
 	"colors": {
 		"light": {
 			"background": "#FBF1C9",
