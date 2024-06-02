@@ -104,7 +104,7 @@ export const emacs = async (args?: string[]): Promise<string> => {
 };
 
 export const vscode = async (args?: string[]): Promise<string> => {
-  return `Opening the best text editor ...`;
+  return `The perfect text editor.`;
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
