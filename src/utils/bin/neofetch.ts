@@ -14,9 +14,9 @@ RRR RR   RRRRRRRRRRRRRRRRRRRRRRR  RRRRR   󰖟 <u><a href="${config.repo}" targe
       RRRRRRRRRRR   RR   RRRRRRRRRR        <u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>
      RR==RRRRRRRRRRRRRRRRRRRRRR===RR      -----------
      RR =  ==RRRRRRR  RRRRRR==  = RR      󱠡 ABOUT
-      RR =     ===========     = RR        Computer Science student at <u><a href="${config.school}" target="_blank">ENSIMAG</a></u>
-       RR                        R         Interning at <u><a href="${config.job}" target="_blank">Allegro DVT</a></u>
-        R                       R         󰅩 Aspiring reverse engineer, part-time coder and full-time problem solver
+      RR =     ===========     = RR        Studied Computer Science at <u><a href="${config.school}" target="_blank">ENSIMAG</a></u>
+       RR                        R         Working at <u><a href="${config.job}" target="_blank">Texas Instruments</a> as an embedded software applications engineer</u>
+        R                       R         󰅩 Part-time coder and full-time problem solver
          R                                
 `;
 };

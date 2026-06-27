@@ -1,18 +1,18 @@
 {
-	"readmeUrl": "https://raw.githubusercontent.com/clubmax27/Nebulea-Website/main/README.md",
+	"readmeUrl": "https://raw.githubusercontent.com/Nebulea-dev/Nebulea-Website/refs/heads/main/README.md",
 	"title": "Nebulea",
-	"name": "Maxence MATHIEU",
+	"name": "Léa MATHIEU",
 	"social": {
-		"github": "clubmax27",
-		"linkedin": "nebulea"
+		"github": "Nebulea-dev",
+		"linkedin": "nebuleadev"
 	},
-	"email": "Maxence.Mathieu.Mail@gmail.com",
+	"email": "contact@nebulea.dev",
 	"ps1_hostname": "ensipc201",
 	"ps1_username": "Nebulea",
-	"repo": "https://github.com/clubmax27/Nebulea-Website",
-	"resume_url": "/assets/CV_MATHIEU_Maxence.pdf",
+	"repo": "https://github.com/Nebulea-dev/Nebulea-Website",
+	"resume_url": "/assets/CV_MATHIEU_Léa.pdf",
 	"school": "https://ensimag.grenoble-inp.fr/",
-	"job": "https://www.allegrodvt.com/",
+	"job": "https://www.ti.com/",
 	"colors": {
 		"light": {
 			"background": "#FBF1C9",
