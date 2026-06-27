@@ -15,7 +15,7 @@ RRR RR   RRRRRRRRRRRRRRRRRRRRRRR  RRRRR   󰖟 <u><a href="${config.repo}" targe
      RR==RRRRRRRRRRRRRRRRRRRRRR===RR      -----------
      RR =  ==RRRRRRR  RRRRRR==  = RR      󱠡 ABOUT
       RR =     ===========     = RR        Studied Computer Science at <u><a href="${config.school}" target="_blank">ENSIMAG</a></u>
-       RR                        R         Working at <u><a href="${config.job}" target="_blank">Texas Instruments</a> as an embedded software applications engineer</u>
+       RR                        R         Working at <u><a href="${config.job}" target="_blank">Texas Instruments</a></u> as an embedded software applications engineer
         R                       R         󰅩 Part-time coder and full-time problem solver
          R                                
 `;
